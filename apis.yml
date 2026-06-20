@@ -9,7 +9,7 @@ description: >-
   checklists, seasonal guidance, and a home health score. Hippo's B2B
   distribution runs through First Connect, an API-driven independent-agent
   platform with 100+ carriers and MGAs, and Spinnaker for MGA carrier paper.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Insurance
   - Homeowners
@@ -29,7 +29,7 @@ apis:
       Direct-to-consumer homeowners quote, bind, and policy management. Quotes
       delivered in under 60 seconds. No public API; carrier partnerships are
       managed via First Connect.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.hippo.com/
     baseURL: https://www.hippo.com
     tags:
@@ -54,7 +54,7 @@ apis:
       Hippo Home is the consumer smart-home companion app for iOS and Android.
       Provides DIY maintenance checklists, seasonal guidance, and a home
       health score. No public API; integrations are sales-led.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.hippo.com/
     baseURL: https://www.hippo.com
     tags:
@@ -74,7 +74,7 @@ apis:
       bridges to carrier APIs for quote and bind in as few keystrokes as
       possible. Access is gated; commercial terms are agent commission split,
       zero access fees.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.firstconnectinsurance.com/
     baseURL: https://portal.firstconnectinsurance.com
     tags:
@@ -102,7 +102,7 @@ apis:
     description: >-
       Spinnaker is Hippo's affiliated specialty admitted carrier providing
       paper for MGAs and program administrators. Integrations are sales-led.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://spinnakerins.com/
     baseURL: https://spinnakerins.com
     tags:
