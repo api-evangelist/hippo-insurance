@@ -1,0 +1,33 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.hippo.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Aug 10 15:17:31 2026 GMT
+  hsts: true
+  hsts_max_age: 31536000
+- host: www.firstconnectinsurance.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Aug 30 23:01:26 2026 GMT
+  hsts: false
+- host: portal.firstconnectinsurance.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 30 15:24:38 2026 GMT
+  hsts: false
+domains:
+- domain: hippo.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: reject
+- domain: firstconnectinsurance.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: quarantine

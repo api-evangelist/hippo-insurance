@@ -114,6 +114,10 @@ apis:
       - type: ProductPage
         url: https://spinnakerins.com/
 common:
+  - type: TrustCenter
+    url: security/hippo-insurance-trust-center.yml
+  - type: DomainSecurity
+    url: security/hippo-insurance-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/hippo-insurance
   - type: Website
