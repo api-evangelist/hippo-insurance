@@ -33,7 +33,7 @@ tags:
   - Carrier
 created: '2026-05-23'
 modified: '2026-05-23'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
   - aid: hippo-insurance:hippo-consumer
     name: Hippo Consumer Quote & Bind
