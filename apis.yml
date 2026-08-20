@@ -46,6 +46,11 @@ apis:
     baseURL: https://www.hippo.com
     tags:
       - Consumer
+      - Quotes
+      - Bind
+      - Homeowners
+    tags_raw:
+      - Consumer
       - Quote
       - Bind
       - Homeowners
@@ -90,6 +95,12 @@ apis:
     humanURL: https://www.firstconnectinsurance.com/
     baseURL: https://portal.firstconnectinsurance.com
     tags:
+      - Agents
+      - Portal
+      - Quotes
+      - Bind
+      - Carrier Network
+    tags_raw:
       - Agents
       - Portal
       - API
