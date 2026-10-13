@@ -1,177 +1,29 @@
 aid: hippo-insurance
-url: https://raw.githubusercontent.com/api-evangelist/hippo-insurance/refs/heads/main/apis.yml
 name: Hippo Insurance
-kind: company
-description: >-
-  Hippo is a modern homeowners insurance carrier that also offers landlord,
-  fire, flood, pet, and auto add-ons, backed by 70+ carrier partners. Hippo's
-  smart-home angle is the Hippo Home app, which delivers DIY maintenance
-  checklists, seasonal guidance, and a home health score. Hippo's B2B
-  distribution runs through First Connect, an API-driven independent-agent
-  platform with 100+ carriers and MGAs, and Spinnaker for MGA carrier paper.
-deliveryModel:
-  model: saas
-  open_source: false
-  commercial: true
-  callable_host: false
-  label: Hosted service · you call their endpoint
-  confidence: medium
-  source:
-  - pricing
-  generated: '2026-08-28'
-  method: derived
-accessModel:
-  pricing: free
-  onboarding: unknown
-  trial: false
-  try_now: false
-  public: false
-  label: Free
-  confidence: medium
-  source:
-  - plans
-  generated: '2026-07-22'
-  method: derived
+description: 'Hippo, the US homeowners insurance company at hippo.com. This is a duplicate slug: Hippo is profiled
+  in the hippo-com repository (slug follows the hippo.com domain), which is canonical. Consolidated 2026-10-13,
+  approved by Kin Lane.'
+type: Index
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hippo-insurance.png
 tags:
-  - Insurance
-  - Homeowners
-  - Insurtech
-  - Smart Home
-  - Agents
-  - MGA
-  - Embedded Insurance
-  - Carrier
+- Insurance
+- Homeowners
+- Insurtech
+- Smart Home
+- Agents
+- MGA
+url: https://raw.githubusercontent.com/api-evangelist/hippo-insurance/refs/heads/main/apis.yml
 created: '2026-05-23'
-modified: '2026-05-23'
+modified: '2026-10-13'
 specificationVersion: '0.23'
-apis:
-  - aid: hippo-insurance:hippo-consumer
-    x-published: false
-    name: Hippo Consumer Quote & Bind
-    description: >-
-      Direct-to-consumer homeowners quote, bind, and policy management. Quotes
-      delivered in under 60 seconds. No public API; carrier partnerships are
-      managed via First Connect.
-    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
-    humanURL: https://www.hippo.com/
-    tags:
-      - Consumer
-      - Quotes
-      - Bind
-      - Homeowners
-    tags_raw:
-      - Consumer
-      - Quote
-      - Bind
-      - Homeowners
-    properties:
-      - type: ProductPage
-        url: https://www.hippo.com/
-      - type: HippoPlus
-        url: https://www.hippo.com/hippo-plus
-      - type: Landlord
-        url: https://www.hippo.com/landlord-insurance
-      - type: LearnCenter
-        url: https://www.hippo.com/learn-center
-      - type: FAQ
-        url: https://faq.hippo.com/en/
-  - aid: hippo-insurance:hippo-home
-    x-published: false
-    name: Hippo Home App
-    description: >-
-      Hippo Home is the consumer smart-home companion app for iOS and Android.
-      Provides DIY maintenance checklists, seasonal guidance, and a home
-      health score. No public API; integrations are sales-led.
-    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
-    humanURL: https://www.hippo.com/
-    tags:
-      - Mobile
-      - Smart Home
-      - Maintenance
-      - Consumer
-    properties:
-      - type: ProductPage
-        url: https://www.hippo.com/
-  - aid: hippo-insurance:first-connect
-    name: First Connect (Independent Agent Platform)
-    description: >-
-      First Connect, a Hippo subsidiary, is an API-first digital platform
-      giving independent agents one-stop access to 100+ home, auto, cyber,
-      small business, life, and specialty carriers and MGAs. The portal
-      bridges to carrier APIs for quote and bind in as few keystrokes as
-      possible. Access is gated; commercial terms are agent commission split,
-      zero access fees.
-    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
-    humanURL: https://www.firstconnectinsurance.com/
-    baseURL: https://portal.firstconnectinsurance.com
-    tags:
-      - Agents
-      - Portal
-      - Quotes
-      - Bind
-      - Carrier Network
-    tags_raw:
-      - Agents
-      - Portal
-      - API
-      - Quote
-      - Bind
-      - Carrier Network
-    properties:
-      - type: ProductPage
-        url: https://www.firstconnectinsurance.com/
-      - type: AgentPortal
-        url: https://portal.firstconnectinsurance.com/
-      - type: HippoCarrierPage
-        url: https://www.firstconnectinsurance.com/carriers/hippo/
-      - type: CarrierSearch
-        url: https://www.firstconnectinsurance.com/carrier-search/
-      - type: HippoAgentInfo
-        url: https://www.hippo.com/agents
-      - type: AgentApplication
-        url: https://info.firstconnectinsurance.com/get-hippo
-  - aid: hippo-insurance:spinnaker
-    name: Spinnaker Insurance (MGA Carrier Paper)
-    description: >-
-      Spinnaker is Hippo's affiliated specialty admitted carrier providing
-      paper for MGAs and program administrators. Integrations are sales-led.
-    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
-    humanURL: https://spinnakerins.com/
-    baseURL: https://spinnakerins.com
-    tags:
-      - MGA
-      - Carrier
-      - Specialty
-      - B2B
-    properties:
-      - type: ProductPage
-        url: https://spinnakerins.com/
-common:
-  - type: TrustCenter
-    url: security/hippo-insurance-trust-center.yml
-  - type: DomainSecurity
-    url: security/hippo-insurance-domain-security.yml
-  - type: LinkedIn
-    url: https://www.linkedin.com/company/hippo-insurance
-  - type: Website
-    url: https://www.hippo.com/
-  - type: Blog
-    url: https://www.hippo.com/blog
-  - type: LearnCenter
-    url: https://www.hippo.com/learn-center
-  - type: FAQ
-    url: https://faq.hippo.com/en/
-  - type: FirstConnect
-    url: https://www.firstconnectinsurance.com/
-  - type: Spinnaker
-    url: https://spinnakerins.com/
-  - type: Plans
-    url: plans/hippo-insurance-plans-pricing.yml
-  - type: RateLimits
-    url: rate-limits/hippo-insurance-rate-limits.yml
-  - type: FinOps
-    url: finops/hippo-insurance-finops.yml
 maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+- FN: Kin Lane
+  email: kin@apievangelist.com
+common:
+- type: ParentCompany
+  url: https://www.hippo.com/
+  name: Hippo (hippo-com)
+apis: []
+x-parent: hippo-com
+x-relationship: duplicate
+x-consolidated-into: hippo-com
