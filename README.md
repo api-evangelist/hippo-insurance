@@ -64,6 +64,28 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-This profile has been **merged into [hippo-com](https://apis.io/providers/hippo-com/)** — the two records described the same company, and that one is canonical.
+> **Retired — merged into [Hippo](https://apis.io/providers/hippo-com/).** The two records described the same company, and that one is canonical. Nothing in this repository is maintained any more.
 
-Nothing here is maintained any more. The company's current profile, rating and artifacts are at [apis.io/providers/hippo-com/](https://apis.io/providers/hippo-com/).
+**Why:** Duplicate of hippo-com (same company, hippo.com). hippo-com is canonical (slug follows the domain) but held no API entries; hippo-insurance's four doc-only entries (Consumer Quote & Bind, Hippo Home App, First Connect, Spinnaker carrier paper) and its plans, rate limits and finops were moved into hippo-com with x-moved-from. Pages map 1:1 to the moved hippo-com entries and artifacts. hippo-insurance stays live as a pointer profile with no APIs. Approved by Kin Lane 2026-10-13.
+
+**Retired:** 2026-10-13
+
+## Where to go now
+
+The current profile, APIs, artifacts and rating for Hippo are on APIs.io at **[apis.io/providers/hippo-com/](https://apis.io/providers/hippo-com/)**.
+
+Pages that used to belong to this profile now live at:
+
+- [First Connect](https://apis.io/apis/hippo-com/first-connect/)
+- [Hippo Consumer](https://apis.io/apis/hippo-com/hippo-consumer/)
+- [Hippo Home](https://apis.io/apis/hippo-com/hippo-home/)
+- [Spinnaker](https://apis.io/apis/hippo-com/spinnaker/)
+- [Hippo Com FinOps](https://apis.io/finops/hippo-com/hippo-com-finops/)
+- [Hippo Com Plans Pricing](https://apis.io/plans/hippo-com/hippo-com-plans-pricing/)
+- [Hippo Com Rate Limits](https://apis.io/rate-limits/hippo-com/hippo-com-rate-limits/)
+- [Hippo Com Domain Security](https://apis.io/security/hippo-com/hippo-com-domain-security/)
+- [Hippo Com Trust Center](https://apis.io/security/hippo-com/hippo-com-trust-center/)
+
+## Open an issue
+
+Issues about Hippo belong on the canonical profile: [open one on api-evangelist/hippo-com](https://github.com/api-evangelist/hippo-com/issues/new). If you think this merge was a mistake — these were really two companies — say so there or email [info@apievangelist.com](mailto:info@apievangelist.com).
